@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <router-link class="navbar-brand" exact to="/">Projet js</router-link>
-    <router-link v-if="token" class="navbar-link" to="/event/add">Ajouter un event</router-link>
+    <router-link class="navbar-brand" exact to="/">Projet FASSETTA-MORAL</router-link>
+    <router-link v-if="token" class="navbar-link" to="/event/add">AJOUTEZ UN EVENEMENT</router-link>
     <a
       v-if="token"
       style="margin-left: 15px;"
