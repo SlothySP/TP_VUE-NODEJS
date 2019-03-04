@@ -9,8 +9,8 @@ pour accéder au projet en ligne cliquer sur les liens suivants :
 
 dans le dossier serveur :
 
-npm install
-node index.js (l'application se lance sur le port 3000)
+Pour pouvoir installer les dépendances  : npm install
+Pour lancer le serveur : node index.js (l'application se lance sur le port 3000)
 
 les routes du serveur sont les suivantes :
 
@@ -25,5 +25,5 @@ les routes du serveur sont les suivantes :
 
 dans le dossier client :
 
-npm install
-npm run dev (l'application se lance sur le port 8080)
+Pour pouvoir installer les dépendances : npm install
+Pour lancer l'application : npm run dev (l'application se lance sur le port 8080)
