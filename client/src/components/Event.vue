@@ -1,6 +1,6 @@
 <template>
   <li class="list-group-item">
-    {{ event.id }} - {{ event.nom}} : Du {{ event.dateDebut }} au {{ event.dateFin }} (
+    {{ event.id }} - {{ event.nom}} (
     <router-link :to="'/event/' + event.id">voir plus</router-link>)
     <button @click="deleteEvent" class="btn btn-danger btn-lg">Supprimer</button>
   </li>
